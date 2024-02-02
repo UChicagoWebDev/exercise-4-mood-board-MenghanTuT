@@ -10,14 +10,15 @@
 
   <div class="top_bar">
     <h1>Mood Board</h1>
-    <div class="search">
+    <div class="search" id="SearchArea">
       <div class="form">
         <input/>
         <button id="runSearchButton">Search</button>
       </div>
       <div class="suggestions">
         <h3>Suggested Searches</h3>
-        <ul>
+        <ul id="suggestionslist">
+        <!-- example, will be cleared by func clearSuggestions() -->
           <li>Cats</li>
           <li>More Cats</li>
           <li>Lol Cats</li>
@@ -41,7 +42,8 @@
         </span>
       </div>
       <div id="resultsImageContainer">
-        <div class="resultImage"> <!-- These are just examples, remove them for your submission -->
+        <!-- example, will be cleared by func clearResultsPane() -->
+        <div class="resultImage"> 
           <img src="https://th-thumbnailer.cdn-si-edu.com/bgmkh2ypz03IkiRR50I-UMaqUQc=/1000x750/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg">
         </div>
         <div class="resultImage">
@@ -55,34 +57,35 @@
   </div>
 
   <div id="board">
-    <div class="savedImage"> <!-- These are just examples, remove them for your submission -->
+    <!-- example, will be cleared by func clearSlectedImgboard() -->
+    <div class="savedImage">
       <img src="https://examplecat.com/cat.png">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
     </div>    
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://examplecat.com/cat.png">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
     </div>    
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://examplecat.com/cat.png">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg">
     </div>
-    <div class="savedImage"> <!-- These are just examples -->
+    <div class="savedImage"> 
       <img src="https://i0.wp.com/katzenworld.co.uk/wp-content/uploads/2019/06/funny-cat.jpeg?fit=1920%2C1920&ssl=1">
     </div>
   </div>
